@@ -44,16 +44,10 @@ This section focuses on formatting and transforming the data:
 - Converts and prepares the data for modeling.
 
 ### 5. Modeling
-In this section, the script builds and evaluates machine learning models for price prediction. It includes the following models:
-- Linear Regression
-- K-Nearest Neighbors (KNN)
-- Decision Tree
-- Random Forest
+In this section, the script builds and evaluates machine learning models for price prediction, including Linear Regression, K-Nearest Neighbors (KNN), Decision Tree, and Random Forest. Model performance is assessed using Mean Squared Error (MSE) and R-squared values.
 
-The script also displays the Mean Squared Error (MSE) and R-squared values to assess model performance.
-
-### 6. Streamlit App (Not Included in the Script)
-The script mentions the use of Streamlit to create a web application for predicting PC prices. However, the actual Streamlit app code is not included in this script.
+### 6. Streamlit App 
+The script mentions the use of Streamlit for creating a web application to predict PC prices. It includes the remaining code sections for handling the selected options, encoding them, and making a price prediction for the PC based on various features, such as brand, processor type, RAM, storage type, and more.
 
 ## Running the Script
 
@@ -93,9 +87,9 @@ The script transforms and formats the data, converting categorical variables to 
 
 The script builds and evaluates machine learning models for price prediction, including Linear Regression, K-Nearest Neighbors (KNN), Decision Tree, and Random Forest. Model performance is assessed using Mean Squared Error (MSE) and R-squared values.
 
-## Streamlit App (Not Included)
+## Streamlit App 
 
-The script mentions the use of Streamlit for creating a web application to predict PC prices. However, the actual Streamlit app code is not included in this script.
+The script mentions the use of Streamlit for creating a web application to predict PC prices. It includes the remaining code sections for handling the selected options, encoding them, and making a price prediction for the PC based on various features, such as brand, processor type, RAM, storage type, and more.
 
-Please refer to the code comments within the script for more detailed explanations of each section.
+
 
